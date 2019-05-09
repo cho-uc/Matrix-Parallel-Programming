@@ -29,3 +29,14 @@ With optimization (-O3):
 But the difference between compiling with -O3 and not is huge.
 
 So stuck with compiling with -O3
+_____________________________________________________
+createBMatrix.m
+Function to create B matrix from a given matrix in Finite Element Methods
+
+__________________________________-
+LUDecomposition.m
+Function to create LU Decomposition
+____________________________________
+LUFactorization
+Function to create LU Factorization
+__________________________________________________
