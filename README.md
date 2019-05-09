@@ -43,3 +43,8 @@ LUFactorization
 
 Function to create LU Factorization
 __________________________________________________
+
+Steepest_descent
+
+Calculating inverse matrix using a Steepest descent algorithm.
+____________________________________________________
