@@ -1,5 +1,5 @@
-# legendary-kitten
-Parallel Programming & Matrix related calculation.
+# Matrix related calculation & Parallel Programming
+
 Mostly C++, but also maybe Java, python, matlab
 _____________________________________________________________________
 ILU.cpp
