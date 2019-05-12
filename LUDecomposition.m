@@ -1,4 +1,4 @@
-function [L,U] = LUDecomposition(A)
+function [U,L] = LUDecomposition(A)
 %LUDecomposition Decompose matrix to be Lower and Upper Triangular matrix
 %   It is a widely used direct solution technique for linear system
 %   Input = matrix A, Output = [L,U]
