@@ -39,6 +39,11 @@ LUDecomposition.m
 
 Function to create LU Decomposition
 ____________________________________
+IncompleteLU.m
+
+Incomplete LU Factorization
+
+_______________________________________
 LUFactorization
 
 Function to create LU Factorization
