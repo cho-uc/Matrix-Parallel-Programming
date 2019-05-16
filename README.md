@@ -7,10 +7,14 @@ ILU.cpp
 Conventional ILU Factorization using parallel program of OpenMP.
 
 TODO : Fine-Grained Parallel Incomplete Factorization
-
 TODO : Symmetric Fine-Grained Parallel Incomplete Factorization.
 
-Based on work by :
+incomplete_Cholesky.m
+
+Decompose matrix to be Lower and Upper Triangular matrix so that U'*U=A
+Only works for positive definite matrices.
+
+Based on research paper by :
 FINE - GRAINED PARALLEL INCOMPLETE LU FACTORIZATION 
 by EDMOND CHOW AND AFTAB PATEL
 ____________________________________________________________________
