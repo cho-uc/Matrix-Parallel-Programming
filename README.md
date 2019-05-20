@@ -3,14 +3,13 @@
 Language : C++ Java, python, matlab
 _____________________________________________________________________
 ILU.cpp
-
 Conventional ILU Factorization using parallel program of OpenMP.
 
-TODO : Fine-Grained Parallel Incomplete Factorization
-TODO : Symmetric Fine-Grained Parallel Incomplete Factorization.
+fine_grained_incomplete_factorization.m
+Decompose matrix to be Lower and Upper Triangular matrix so that L*U=A
+Only works for positive definite matrices.
 
 incomplete_Cholesky.m
-
 Decompose matrix to be Lower and Upper Triangular matrix so that U'*U=A
 Only works for positive definite matrices.
 
