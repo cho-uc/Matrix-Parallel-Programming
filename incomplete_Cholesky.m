@@ -1,7 +1,7 @@
 function [U] = incomplete_Cholesky(A)
 %Incomplete_Cholesky Decompose matrix to be Lower and Upper Triangular matrix
-%   so that A=U'*U*
-%   Input = matrix A, Output = [U,L]
+%   so that A=U'*U
+%   Input = matrix A, Output = [U]
 % Only works for positive definite matrices.
 
 
