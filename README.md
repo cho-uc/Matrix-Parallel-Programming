@@ -35,6 +35,12 @@ With optimization (-O3):
 But the difference between compiling with -O3 and not is huge.
 
 So stuck with compiling with -O3
+_______________________________________________________
+performance_change_order_code.cpp
+
+Three-four times faster if the order of part I & part II in the code is switched.
+https://stackoverflow.com/questions/56308339/is-position-of-code-affect-performance-in-c/56308654#56308654
+
 _____________________________________________________
 createBMatrix.m
 
