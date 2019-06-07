@@ -2,9 +2,10 @@
 
 Language : C++ Java, python, matlab
 _____________________________________________________________________
-ILU.cpp
+ILU.cpp & ILU_pointer.cpp
 
 Conventional ILU Factorization using parallel program of OpenMP.
+Data structure : std :: vector and pointer arrays
 
 fine_grained_incomplete_factorization.m
 
