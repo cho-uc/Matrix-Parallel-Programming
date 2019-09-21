@@ -1,6 +1,13 @@
 # Matrix related calculation & Parallel Programming
 
 Language : C++ Java, python, matlab
+
+_____________________________________________________________________
+buffer_creation_test.cpp
+
+OpenCl:
+Using CL_MEM_COPY_HOST_PTR when creating buffer will result in slower execution
+However this is only applied to kernel method with large arguments (>4)
 _____________________________________________________________________
 ILU.cpp & ILU_pointer.cpp
 
