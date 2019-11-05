@@ -43,7 +43,13 @@ With optimization (-O3):
 But the difference between compiling with -O3 and not is huge.
 
 So stuck with compiling with -O3
+____________________________________________________________________
+locality_of_reference.cpp
+
+Changing the order of index looping resulted in much faster execution due to cache penalty.
+With -O3 flags, the speed up is around 5X faster for n = 1500
 _______________________________________________________
+
 performance_change_order_code.cpp
 
 Three-four times faster if the order of part I & part II in the code is switched.
