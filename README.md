@@ -56,6 +56,13 @@ Three-four times faster if the order of part I & part II in the code is switched
 https://stackoverflow.com/questions/56308339/is-position-of-code-affect-performance-in-c/56308654#56308654
 
 _____________________________________________________
+vector_push_test.cpp
+
+Comparing performance between push back vector with C-style array
+for discretization of 3D block
+Related Stackoverflow issue : 
+https://stackoverflow.com/questions/20168051/why-push-back-is-slower-than-operator-for-a-previously-allocated-vector/20168172#20168172
+_______________________________________________________
 createBMatrix.m
 
 Function to create B matrix from a given matrix in Finite Element Methods
