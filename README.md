@@ -52,7 +52,9 @@ ____________________________________________________________________
 assignment_operator_test.cu
 
 Performance testing for assignment operator '+='
+
 Comparison between '+=' and '='
+
 Result :	 assignment operator '=' is faster than '+='
 
 ____________________________________________________________________
