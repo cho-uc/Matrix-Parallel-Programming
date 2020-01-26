@@ -48,7 +48,14 @@ locality_of_reference.cpp
 
 Changing the order of index looping resulted in much faster execution due to cache penalty.
 With -O3 flags, the speed up is around 5X faster for n = 1500
-_______________________________________________________
+____________________________________________________________________
+assignment_operator_test.cu
+
+Performance testing for assignment operator '+='
+Comparison between '+=' and '='
+Result :	 assignment operator '=' is faster than '+='
+
+____________________________________________________________________
 
 performance_change_order_code.cpp
 
