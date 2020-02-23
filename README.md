@@ -1,6 +1,6 @@
 # Matrix related calculation & Parallel Programming
 
-Language : C++ Java, python, matlab
+Language : C++, Java, python, matlab
 
 _____________________________________________________________________
 buffer_creation_test.cpp
@@ -65,12 +65,23 @@ Three-four times faster if the order of part I & part II in the code is switched
 https://stackoverflow.com/questions/56308339/is-position-of-code-affect-performance-in-c/56308654#56308654
 
 _____________________________________________________
+
 vector_push_test.cpp
 
 Comparing performance between push back vector with C-style array
 for discretization of 3D block
 Related Stackoverflow issue : 
 https://stackoverflow.com/questions/20168051/why-push-back-is-slower-than-operator-for-a-previously-allocated-vector/20168172#20168172
+
+_____________________________________________________
+
+max_args_test.cu
+
+Test max argument's size (256 Byte) for Cuda kernel.
+Passing struct to kernel arguments to overcome limitation of number of args in kernel
+But regular kernel turns out working properly with 70 args 
+https://devtalk.nvidia.com/default/topic/458705/is-there-any-limit-on-of-arguments-in-cuda-kernel-/
+
 _______________________________________________________
 createBMatrix.m
 
